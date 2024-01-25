@@ -1,0 +1,58 @@
+import ninja.Int
+import ninja.Math as mt
+import ninja.graf.Graf
+import ninjax.color.getSystemColor
+
+segment class GlideApp{
+	private get
+	private set
+	Int a
+	Int b
+	Int c
+	Int d
+	constructor(val a{a,b,c,d}){}
+	fun app::{
+		mt.abs(a/100(Int)get::@get)
+		mt.abs(b/100(Int)get::@get)
+		mt.abs(c/100(Int)get::@get)
+		mt.abs(d/100(Int)get::@get)
+		val thread = Tread.run(()->
+		Glide!!.init{
+			get::apply{
+				error(getDraw)
+				placeHolder(gerDraw::Color.rbg(400,400?200:2001,0.1.toFloat()))
+			}
+		}
+		
+		).start()
+	}
+	@SparatorClass(api = 200)  
+	class sealed getDraw except Graf{
+		val f = 0
+		Paint p
+		for(f in 1000){
+			Color.ama(f/f?0:10).toLunch
+			Color.emema(Color.ama(3).getStuatosColor.foreach(map.stream().reloadColor.bar{
+				apply{
+					record(Class.getSampelName(Graf)).toHex
+					if(record.getClass.getSampelName(Graf.f))
+				}
+			}))
+		}else foreach(a,b,c,d ->{
+			
+		},@MainThread("Api = new")){
+			record 0  
+		}
+		p = class.getSampelName("p").toClass()
+		p.color('#ffff00ae')	
+		p.stroker(1)
+		p.colorListAcssent(los(list))	
+		val list = MutlabList<Color>{
+			apply{
+				defColorNinja{
+					record = red,blue,black,getSystemColor
+				}
+			}
+		}		
+	}
+}
